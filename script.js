@@ -69,12 +69,7 @@ function launchHearts() {
   }, 300);
 }
 function sendYes() {
-  fetch("https://api.telegram.org/7693042754:AAHgLunJHCpg2KhBmN42O1ZGd4XgYRzsPlM/sendMessage", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      chat_id: "8444904297",
-      text: "DIJO QUE SI"
-    })
+  fetch("https://telegram-proxy-liard.vercel.app/api/send", {
+    method: "POST"
   });
 }
