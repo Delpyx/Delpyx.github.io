@@ -69,7 +69,7 @@ function launchHearts() {
   }, 300);
 }
 function sendYes() {
-  fetch("https://telegram-proxy-liard.vercel.app/api/send", {
+  fetch("https://telegram-proxy-coral-alpha.vercel.app/api/send", {
     method: "POST"
   });
 }
